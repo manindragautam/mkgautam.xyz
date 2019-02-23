@@ -1,0 +1,9 @@
+{
+    "navigations": {
+        "about": "/about",
+        "blog": "/blog",
+        "github": "https://github.com/manindragautam",
+        "home": "/",
+        "projects": "/projects"
+    }
+}
