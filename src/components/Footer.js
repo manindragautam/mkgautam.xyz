@@ -21,7 +21,7 @@ export default () => (
                     <ul className='list-reset inline-flex'>
                         {Object.keys(data.contentJson.footer).map((x, i) =>
                             <li key={i} className={Object.keys(data.contentJson.footer).length !== (i + 1) ? 'px-2 border-r border-grey-light' : 'px-2'}>
-                                <a href={data.contentJson.footer[x]} target='_blank' rel='noopener noreferrer'>{x}</a>
+                                <a href={data.contentJson.footer[x]} target={x === 'Email' ? '_top' : '_blank'} rel='noopener noreferrer'>{x}</a>
                             </li>
                         )}
                     </ul>

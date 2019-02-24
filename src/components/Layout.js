@@ -11,7 +11,9 @@ export default ({ children }) => (
             <meta name="author" content="Manindra Gautam" />
         </Helmet>
         <Navigation />
-        {children}
+        <main className="w-full pt-8 px-4 md:px-0 m-auto tracking-wide">
+            {children}
+        </main>
         <Footer />
     </header>
 )
