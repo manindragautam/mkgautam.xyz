@@ -12,11 +12,15 @@
   },
   "dependencies": {
     "gatsby": "^2.0.111",
+    "gatsby-plugin-manifest": "^2.0.19",
+    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-react-helmet": "^3.0.6",
     "gatsby-source-filesystem": "^2.0.22",
     "gatsby-transformer-json": "^2.1.8",
     "gatsby-transformer-remark": "^2.2.6",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "tailwindcss": "^0.7.4"
