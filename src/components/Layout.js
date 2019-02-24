@@ -1,9 +1,17 @@
 import React from 'react'
 import Navigation from './Navigation';
+import Footer from './Footer';
+import { Helmet } from 'react-helmet';
 
 export default ({ children }) => (
-    <div className='m-auto max-w-xl'>
+    <header className='m-auto max-w-xl'>
+        <Helmet>
+            <html lang="en" amp />
+            <meta charSet="utf-8" />
+            <meta name="author" content="Manindra Gautam" />
+        </Helmet>
         <Navigation />
         {children}
-    </div>
+        <Footer />
+    </header>
 )

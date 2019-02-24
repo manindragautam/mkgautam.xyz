@@ -9,7 +9,6 @@ export default () => (
                     navigations {
                         home
                         projects
-                        about
                         blog
                         github
                     }
@@ -18,7 +17,7 @@ export default () => (
             `
         }
         render={data => (
-            <section className='top-nav text-grey-darkest'>
+            <nav className='top-nav text-grey-darkest'>
                 <div className='text-2xl'>MKGautam</div>
                 <input id='menu-toggle' type='checkbox' />
                 <label className='menu-button-container' htmlFor='menu-toggle'>
@@ -35,7 +34,7 @@ export default () => (
                         )
                     })}
                 </ul>
-            </section>
+            </nav>
         )}
     />
 )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Layout from '../components/Layout'
 import MyPic from '../images/manindra-gautam.jpg'
 import RailsIcon from '../images/rails.svg'
@@ -8,7 +9,12 @@ import PythonIcon from '../images/python.svg'
 import DockerIcon from '../images/docker.png'
 
 export default () => <Layout>
-  <div className="w-full lg:flex pt-8 px-4 m-auto lg:border-b lg:border-grey-light">
+  <Helmet>
+    <title>Manindra Gautam</title>
+    <meta name="Description" content="Manindra Gautam's portfolio and writings on Ruby on Rails, Node, React, Redux, GIT, Heroku Cloud, Linux, Python and Docker"></meta>
+    <link rel="canonical" href="https://mkgautam.xyz" />
+  </Helmet>
+  <main className="w-full lg:flex pt-8 px-4 m-auto tracking-wide">
     <div className="w-full justify-center lg:w-1/3 flex items-center">
       <img className="w-64 h-64 rounded-full mr-4" src={MyPic} alt="Manindra Gautam" />
     </div>
@@ -36,5 +42,5 @@ export default () => <Layout>
         <img className="w-16 h-16 rounded" src={DockerIcon} alt="Docker" />
       </div>
     </div>
-  </div>
+  </main>
 </Layout>
