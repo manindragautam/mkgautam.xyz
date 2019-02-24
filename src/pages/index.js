@@ -21,10 +21,10 @@ export default () => <Layout>
     <div className="w-full lg:w-2/3 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
       <div className="mb-8">
         <div className="text-black text-2xl pb-1 border-b border-grey-light">Manindra Kumar Gautam</div>
-        <p className="text-md text-grey-darkest flex items-center pt-1">
+        <p className="text-lg text-grey-darkest flex items-center pt-1">
           &lt; Software Engineer / &gt;
         </p>
-        <p className="text-grey-darker text-base mt-6">
+        <p className="text-grey-darker text-base lg:text-lg mt-6">
         Hi, I am Manindra, an engineer located at Lucknow, India, interested in Machine Learning and DevOps, having 2+ years experience developing software in a fast-paced, startup like environment, skilled in Ruby on Rails, ReactJS, Redux, GIT, Heroku Cloud, Linux, Agile.
         <br />
         <br />

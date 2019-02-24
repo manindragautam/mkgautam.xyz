@@ -4,5 +4,11 @@
         "github": "https://github.com/manindragautam",
         "home": "/",
         "projects": "/projects"
+    },
+    "footer": {
+        "LinkedIn": "https://linkedin.com/in/manindragautam/",
+        "Github": "https://github.com/manindragautam",
+        "Twitter": "https://twitter.com/manindragautam",
+        "Email": "mailto:manindragautam@icloud.com"
     }
 }
