@@ -6,7 +6,7 @@ import RailsIcon from '../images/rails.svg'
 import ReactIcon from '../images/react.svg'
 import ReduxIcon from '../images/redux.svg'
 import PythonIcon from '../images/python.svg'
-import DockerIcon from '../images/docker.png'
+import GraphqlIcon from '../images/graphql.svg'
 import UnHead from '../components/UnHead';
 import Text from '../components/Text';
 
@@ -38,8 +38,8 @@ export default () => <Layout>
         <img className="w-12 h-12 rounded mr-4" src={RailsIcon} alt="Ruby on Rails" />
         <img className="w-12 h-12 rounded mr-4" src={ReactIcon} alt="ReactJS" />
         <img className="w-12 h-12 rounded mr-4" src={ReduxIcon} alt="Redux" />
+        <img className="w-10 h-10 rounded mr-4" src={GraphqlIcon} alt="GraphQL" />
         <img className="w-10 h-10 rounded mr-4" src={PythonIcon} alt="Python" />
-        <img className="w-16 h-16 rounded" src={DockerIcon} alt="Docker" />
       </div>
     </div>
   </div>
