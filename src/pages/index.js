@@ -18,7 +18,7 @@ export default () => <Layout>
   </Helmet>
   <div className='lg:flex'>
     <div className="w-full justify-center lg:w-1/3 flex items-center">
-      <img className="w-64 h-64 rounded-full mr-4" src={MyPic} alt="Manindra Gautam" />
+      <img className="w-48 h-48 md:w-64 md:h-64 rounded-full mr-4" src={MyPic} alt="Manindra Gautam" />
     </div>
     <div className="w-full lg:w-2/3 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
       <div className="mb-8">
