@@ -1,0 +1,170 @@
+%-------------------------
+% Resume in Latex
+% Author : Manindra Gautam
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumeProject}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\[5pt]
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\myItem}[1]{
+  \item\small{
+    {#1} \\[-0.1pt]
+  }
+}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://mkgautam.xyz}{\Large Manindra Kumar Gautam}} & Email : \href{mailto:manindragautam@icloud.com}{manindragautam@icloud.com}\\
+  \href{https://mkgautam.xyz}{https://mkgautam.xyz} & Mobile : +91 73555 10427 \\
+\end{tabular*}
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Ruby, Javascript, GraphQL, Python} \\[1pt]
+    \item
+      \textbf{Technologies}{: Ruby on Rails, React, Redux, GatsbyJS, JWT, GIT, Heroku Cloud, Docker, LaTeX} \\[1pt]
+    \item
+      \textbf{Preferred OSs}{: Ubuntu, MacOS, Other Linux Distros}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Akaruilabs}{Lucknow, India}
+      {Software Engineer}{Apr 2017 - Present}
+      \resumeItemListStart
+        \resumeItem{Equity Multiple}
+          {Equity Multiple is an online marketplace for private real estate transactions. It enables individual and institutional investors to invest alongside the market’s most sophisticated sponsors in many commercial real estate assets.}
+        \resumeItem{Zeehaus}
+          {Zeehaus is a real estate equity sharing marketplace and ownership management platform. It is the first and only, one-stop marketplace to connect homeowners and homebuyers with investors who are enabled to purchase fractional ownership in US real estate digitally, having a reward sharing community and equity sharing marketplace that helps you buy, sell, or get you investing in property the simple and secure way levaraging Blockchain technology. By digitalizing the buying process, lowering the cost of acquiring the property and associated monthly housing costs, while simultaneously enabling sound investment opportunities for investors interested in the real estate market.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {GenX Web Hosting}{Lucknow, India}
+      {PHP Developer}{Dec 2015 - Jan 2017}
+      \resumeItemListStart
+      	\item Worked on Scrapy and Selenium for Web Automation
+        \item Maintained various websites, primarily using PHP and MySQL.
+        \item Developed wordpress websites, themes and plugins
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Open Source Projects}
+  \resumeSubHeadingListStart
+  	\resumeProject
+      {Codekiq-UI NPM}{\href{https://www.npmjs.com/package/codekiq-ui}{https://www.npmjs.com/package/codekiq-ui}}
+    {Open source react component library for easy development of UI design, mockups etc.}
+    \resumeProject
+      {React NPM Boilerplate}{\href{https://github.com/manindragautam/react-npm-boilerplate}{https://github.com/manindragautam/react-npm-boilerplate}}
+    {Open source boilerplate setup for react based npm development.}
+    \resumeProject
+      {Dockerize Rails App}{\href{https://github.com/manindragautam/dockerize-rails-app}{https://github.com/manindragautam/dockerize-rails-app}}
+    {Open source docker image source code of rails app that can be used to start any rails docker based project setup}
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Uttar Pradesh Technical University}{Lucknow, India}
+      {Bachelor of Technology in Electrical and Electronics}{Aug. 2011 -- July. 2014}
+    \resumeSubheading
+      {Govt Polytechnic Kanpur}{Kanpur, India}
+      {Diploma in Electrical}{Aug. 2007 -- July. 2010}
+  \resumeSubHeadingListEnd
+  
+%-----------EDUCATION-----------------
+\section{Interests}
+  \resumeSubHeadingListStart
+    \myItem {Human Activity Analysis}
+    \myItem {TED Talks}
+    \myItem {Robotics}
+    \myItem {Artificial Intelligence}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}

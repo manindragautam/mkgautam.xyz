@@ -3,7 +3,8 @@
         "blog": "/blog",
         "github": "https://github.com/manindragautam",
         "home": "/",
-        "projects": "/projects"
+        "projects": "/projects",
+        "resume": "/resume.pdf"
     },
     "footer": {
         "LinkedIn": "https://linkedin.com/in/manindragautam/",

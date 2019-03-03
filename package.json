@@ -23,6 +23,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "node-latex": "^2.4.4",
     "tailwindcss": "^0.7.4"
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/Layout'
-import MyPic from '../images/manindra-gautam.jpg'
+import MyPic from '../images/mkgautam.jpeg'
 import RailsIcon from '../images/rails.svg'
 import ReactIcon from '../images/react.svg'
 import ReduxIcon from '../images/redux.svg'

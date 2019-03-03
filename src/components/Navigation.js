@@ -10,6 +10,7 @@ export default () => (
                         home
                         projects
                         github
+                        resume
                     }
                 }
             }
@@ -25,10 +26,21 @@ export default () => (
                 <ul className='menu'>
                     {Object.keys(data.contentJson.navigations).map((x, i) => {
                         let external = data.contentJson.navigations[x].includes('://')
+                        let resume = x === 'resume'
                         return (
                             <li key={i}>
-                                {!external && <Link className='uppercase no-underline text-grey-darkest' to={data.contentJson.navigations[x]}>{x}</Link>}
-                                {external && <a className='uppercase no-underline text-grey-darkest' href={data.contentJson.navigations[x]} target='_blank' rel='noopener noreferrer'>{x}</a>}
+                                {!external && !resume && <Link
+                                    className='uppercase no-underline text-grey-darkest'
+                                    to={data.contentJson.navigations[x]}>
+                                    {x}
+                                </Link>}
+                                {(external || resume) && <a
+                                    className='uppercase no-underline text-grey-darkest'
+                                    href={data.contentJson.navigations[x]}
+                                    target='_blank'
+                                    rel='noopener noreferrer'>
+                                    {x}
+                                </a>}
                             </li>
                         )
                     })}
