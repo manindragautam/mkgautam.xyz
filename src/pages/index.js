@@ -27,7 +27,7 @@ export default () => <Layout>
           &lt; Software Engineer / &gt;
         </p>
         <Text>
-          Hi, I am Manindra, an engineer located at Lucknow, India, interested in Machine Learning and DevOps, having 2+ years experience developing software in a fast-paced, startup like environment, skilled in Ruby on Rails, ReactJS, Redux, GIT, Heroku Cloud, Linux, Agile.
+          Hi, I am Manindra, an engineer located at Lucknow, India, interested in Machine Learning and DevOps, having 3+ years experience developing software in a fast-paced, startup like environment, skilled in Ruby on Rails, ReactJS, Redux, GIT, Heroku Cloud, Linux, Agile.
           <br /><br />
           At Akaruilabs, I'm currently working on real-estate market application with Ruby on Rails and ReactJS technologies.
           <br /><br />
