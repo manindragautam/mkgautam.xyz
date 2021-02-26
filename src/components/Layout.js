@@ -4,7 +4,7 @@ import Footer from './Footer';
 import { Helmet } from 'react-helmet';
 
 export default ({ children }) => (
-    <header className='m-auto max-w-xl'>
+    <header className='m-auto max-w-4xl'>
         <Helmet>
             <html lang="en" amp />
             <meta charSet="utf-8" />

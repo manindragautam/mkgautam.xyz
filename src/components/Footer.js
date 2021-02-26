@@ -9,7 +9,6 @@ export default () => (
                     footer {
                         LinkedIn
                         Github
-                        Twitter
                         Email
                     }
                 }
@@ -25,9 +24,6 @@ export default () => (
                             </li>
                         )}
                     </ul>
-                </div>
-                <div className='mt-4'>
-                    <sub className='text-2xl'>&copy;</sub> 2019 <Link className='text-grey-darkest' to='/'>Manindra Gautam</Link>. All rights reserved.
                 </div>
             </footer>
         )}

@@ -3,6 +3,8 @@ module.exports = {
         title: `Manindra Gautam`,
     },
     plugins: [
+        `gatsby-plugin-provide-react`,
+        'gatsby-plugin-postcss',
         `gatsby-transformer-json`,
         `gatsby-transformer-remark`,
         {
